@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNparfums - Parfums de Luxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">DNparfums</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="panier.html" class="cart-btn">Panier <span class="cart-count" id="cartCount">0</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Découvrez l'Excellence des Parfums</h1>
+        <p>Collection exclusive de parfums de luxe pour homme et femme</p>
+    </div>
+
+    <!-- Products Section -->
+    <div class="products-section" id="products">
+        <h2 class="section-title">Nos Parfums</h2>
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="img/p1.png" alt="Oud Royal" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Oud Royal</h3>
+                    <p class="product-price">450 DH</p>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Oud Royal', 450, )">
+                        Ajouter au Panier
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="img/p2.png" alt="Rose Élégance" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Rose Élégance</h3>
+                    <p class="product-price">380 DH</p>
+                    <button class="add-to-cart-btn" onclick="addToCart(2, 'Rose Élégance', 380, )">
+                        Ajouter au Panier
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1588405748880-12d1d2a59db9?w=500" alt="Noir Mystique" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Noir Mystique</h3>
+                    <p class="product-price">520 DH</p>
+                    <button class="add-to-cart-btn" onclick="addToCart(3, 'Noir Mystique', 520, 'https://images.unsplash.com/photo-1588405748880-12d1d2a59db9?w=500')">
+                        Ajouter au Panier
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500" alt="Ambre Précieux" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Ambre Précieux</h3>
+                    <p class="product-price">410 DH</p>
+                    <button class="add-to-cart-btn" onclick="addToCart(4, 'Ambre Précieux', 410, 'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500')">
+                        Ajouter au Panier
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=500" alt="Jasmin d'Or" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Jasmin d'Or</h3>
+                    <p class="product-price">390 DH</p>
+                    <button class="add-to-cart-btn" onclick="addToCart(5, 'Jasmin d\'Or', 390, 'https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=500')">
+                        Ajouter au Panier
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500" alt="Vetiver Intense" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Vetiver Intense</h3>
+                    <p class="product-price">480 DH</p>
+                    <button class="add-to-cart-btn" onclick="addToCart(6, 'Vetiver Intense', 480, 'https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500')">
+                        Ajouter au Panier
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>DNparfums</h3>
+                <p>Votre destination pour les parfums de luxe authentiques.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>📞 +212 680 458 194</p>
+                <p>📧 ayoubnhaila646@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 DNparfums. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

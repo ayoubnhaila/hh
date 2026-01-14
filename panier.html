@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - DNparfums</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">DNparfums</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#products">Produits</a></li>
+                <li><a href="panier.html" class="cart-btn">Panier <span class="cart-count" id="cartCount">0</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cart Page -->
+    <div class="cart-page">
+        <h2 class="section-title">Votre Panier</h2>
+        <div class="cart-items" id="cartItems"></div>
+        
+        <div class="checkout-form">
+            <h3 style="margin-bottom: 1.5rem; color: #00d4ff;">Informations de Livraison</h3>
+            <form id="checkoutForm">
+                <div class="form-group">
+                    <label>Nom Complet *</label>
+                    <input type="text" id="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label>Téléphone *</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label>Adresse de Livraison *</label>
+                    <textarea id="address" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Ville *</label>
+                    <input type="text" id="city" required>
+                </div>
+                <button type="submit" class="order-btn">Valider la Commande via WhatsApp</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>DNparfums</h3>
+                <p>Votre destination pour les parfums de luxe authentiques.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>📞 +212 680 458 194</p>
+                <p>📧 ayoubnhaila646@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 DNparfums. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
